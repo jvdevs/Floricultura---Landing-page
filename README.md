@@ -54,6 +54,10 @@ Para a hospedagem foi escolhida a plataforma gratuita de dominios. A Netlify
 <img width="1897" height="936" alt="image" src="https://github.com/user-attachments/assets/a67a010a-6c73-4647-817f-5159afbd8b52" />
 </div>
 
+Abaixo segue o link do site hospedado: 
+
+ciadasflores.netlify.app
+
 ---
 
 ## Resultado Final
