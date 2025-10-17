@@ -378,4 +378,69 @@ footer {
     display: none;
   }
 }
+/* ======== Formulário de Contato ======== */
+.formulario-contato {
+  margin-top: 50px;
+  background: #f9f9f9;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.formulario-contato h3 {
+  color: #3b7a57;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.form-grupo {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-grupo label {
+  color: #3b7a57;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.form-grupo input,
+.form-grupo textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border 0.3s;
+}
+
+.form-grupo input:focus,
+.form-grupo textarea:focus {
+  border-color: #3b7a57;
+  outline: none;
+}
+
+.btn-enviar {
+  background-color: #3b7a57;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  display: block;
+  margin: 0 auto;
+}
+
+.btn-enviar:hover {
+  background-color: #2e5e44;
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  .formulario-contato {
+    padding: 25px;
+  }
+}
 
