@@ -443,4 +443,8 @@ footer {
     padding: 25px;
   }
 }
+nav a.active {
+  color: #3b7a57;
+  font-weight: 600;
+}
 
